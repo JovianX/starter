@@ -129,4 +129,4 @@ if __name__ == "__main__":
     logger = logging.getLogger()
     logger.setLevel(logging.DEBUG)
     logger.addHandler(logging.StreamHandler())
-    app.start(3000)
+    app.start(80)
